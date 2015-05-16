@@ -36,6 +36,10 @@ public class MainActivity extends ActionBarActivity {
         mTextViewCPUInfo.setText(mCPUInfo);
     }
 
+    /**
+     * 错误测试。通过这个测试方法可以得知，不同的CPU架构会有什么类型的信息。
+     * 已通过云测，全部机型通过。
+     */
     private void errorTest() {
 
         /**
